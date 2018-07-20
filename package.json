@@ -16,7 +16,7 @@
     "confidence": "^3.0.2",
     "chalk": "*",
     "dotenv": "^2.0.0",
-    "glue": "^4.1.0",
+    "glue": "^5.0.0",
     "gulp": "^3.9.1",
     "gulp-exit": "0.0.2",
     "gulp-nodemon": "^2.0.6",
