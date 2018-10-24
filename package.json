@@ -4,7 +4,9 @@
   "description": "A user system leveraging rest-hapi to bootstrap your app.",
   "scripts": {
     "start": "gulp",
-    "test": "gulp test"
+    "test": "gulp test",
+    "snyk-protect": "snyk protect",
+    "prepare": "npm run snyk-protect"
   },
   "engines": {
     "node": "5.0.0",
@@ -17,7 +19,7 @@
     "chalk": "*",
     "dotenv": "^2.0.0",
     "glue": "^4.1.0",
-    "gulp": "^3.9.1",
+    "gulp": "^4.0.0",
     "gulp-exit": "0.0.2",
     "gulp-nodemon": "^2.0.6",
     "gulp-util": "latest",
@@ -33,6 +35,8 @@
     "nodemailer-markdown": "^1.0.1",
     "q": "^1.4.1",
     "require-dir": "~0.1.0",
-    "rest-hapi": "latest"
-  }
+    "rest-hapi": "latest",
+    "snyk": "^1.104.2"
+  },
+  "snyk": true
 }
