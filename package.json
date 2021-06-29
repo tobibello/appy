@@ -29,7 +29,7 @@
     "lodash": "~3.10.1",
     "mongoose": "4.7.4",
     "node-uuid": "^1.4.7",
-    "nodemailer": "^2.6.4",
+    "nodemailer": "^6.6.1",
     "nodemailer-markdown": "^1.0.1",
     "q": "^1.4.1",
     "require-dir": "~0.1.0",
